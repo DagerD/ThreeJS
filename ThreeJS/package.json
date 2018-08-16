@@ -7,19 +7,19 @@
     "name": "emarkelov"
   },
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "compression": "^1.7.3",
-    "cookie-parser": "^1.4.3",
-    "express": "^4.16.3",
-    "morgan": "^1.9.0",
-    "path": "^0.12.7",
-    "request": "^2.87.0",
-    "serve-favicon": "^2.5.0",
-    "three": "^0.95.0",
-    "threejs-transformcontrols": "^0.83.0",
-    "yargs": "^12.0.1"
+    "body-parser": "file:local_modules/body-parser",
+    "compression": "file:local_modules/compression",
+    "cookie-parser": "file:local_modules/cookie-parser",
+    "express": "file:local_modules/express",
+    "morgan": "file:local_modules/morgan",
+    "path": "file:local_modules/path",
+    "request": "file:local_modules/request",
+    "serve-favicon": "file:local_modules/serve-favicon",
+    "three": "file:local_modules/three",
+    "threejs-transformcontrols": "file:local_modules/threejs-transformcontrols",
+    "yargs": "file:local_modules/yargs"
   },
   "devDependencies": {
-    "nodemon": "^1.18.3"
+    "nodemon": "file:local_modules/nodemon"
   }
 }
